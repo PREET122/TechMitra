@@ -1,0 +1,95 @@
+ *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+      background: #f5f7fb;
+      padding: 20px;
+      color: #333;
+}
+
+h1 {
+      margin-bottom: 20px;
+}
+
+h2 {
+      margin: 25px 0 15px;
+}
+
+    /* Product Grid */
+.products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+}
+
+    /* Product Card */
+.product {
+      background: #fff;
+      padding: 15px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      transition: 0.3s;
+}
+
+.product:hover {
+      transform: translateY(-5px);
+    }
+
+.product img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+}
+
+.price {
+      color: #007bff;
+      font-weight: bold;
+      margin: 10px 0;
+}
+
+button {
+      padding: 10px 15px;
+      border: none;
+      background: #007bff;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+}
+
+button:hover {
+      background: #0056b3;
+}
+
+    /* Cart + Contact Box */
+.box {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      margin-top: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+    /* Form Styling */
+input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      margin-bottom: 15px;
+}
+
+textarea {
+      height: 80px;
+      resize: none;
+}
+
+hr {
+    display: none; /* hide old dividers */
+}
